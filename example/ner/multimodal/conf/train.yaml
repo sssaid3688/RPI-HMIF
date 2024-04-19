@@ -1,0 +1,29 @@
+seed: 1234
+
+bert_name: "/home/oyhj/IdeaProjects/DeepKE-main/src/deepke/name_entity_re/multimodal/modules/bert-base-uncased"
+vit_name: "/home/oyhj/IdeaProjects/DeepKE-main/src/deepke/name_entity_re/multimodal/modules/clip-vit-base-patch32"
+device: cuda
+
+num_epochs: 30
+batch_size: 32
+lr: 5e-5
+pmt_lr: 1e-5
+label_lr: 1e-3
+label_weight_decay: 1e-2
+infer_lr: 1e-4
+infer_weight_decay: 1e-2
+warmup_ratio: 0.06
+eval_begin_epoch: 1
+pmtlen: 8
+routnum: 3
+max_seq: 40
+aux_size: 128
+rcnn_size: 64
+ignore_idx: 0
+rate: 1
+pmts: ""
+
+save_path: "checkpoints/twitter15"
+load_path: null
+
+dataset_name: 'twitter15'
