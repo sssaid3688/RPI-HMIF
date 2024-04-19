@@ -2,7 +2,7 @@
 
 ## Architecture
 
-<img src="overall2.png">
+<img src="overall_acmm2.png">
 
 
 
